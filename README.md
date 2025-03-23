@@ -21,30 +21,32 @@ A script to automatically organize your Downloads folder into categorized subdir
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/yourusername/downloads-organizer.git
+``` git clone https://github.com/yourusername/downloads-organizer.git ```
 
 
-2. Install dependencies::
-pip install jinja2
+3. Install dependencies::
+``` pip install jinja2 ```
 
-3. Usage:
-python main.py [OPTIONS]
+4. Usage:
+``` python main.py [OPTIONS] ```
 
 Options:
 --dry-run: Test the script without making changes
 --organize-by-date: Create monthly subfolders within categories
 
 Example:
-python main.py --organize-by-date
+``` python main.py --organize-by-date```
 
 ## Configuration
 Modify these variables in main.py:
 
+```
 # Path to your Downloads folder
 DOWNLOADS_PATH = Path.home() / "C:\\Users\\ameer\\Downloads"  # Update this path
 FILE_CATEGORIES = {  # Add/remove categories as needed
     # ... existing categories ...
 }
+```
 
 ## Important Notes
  - Always run with --dry-run first to preview changes

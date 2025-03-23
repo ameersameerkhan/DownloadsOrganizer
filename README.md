@@ -50,7 +50,7 @@ Modify these variables in main.py:
 
 ```
 # Path to your Downloads folder
-DOWNLOADS_PATH = Path.home() / "C:\\Users\\ameer\\Downloads"  # Update this path
+DOWNLOADS_PATH = Path.home() / "Downloads"  # Update this path
 FILE_CATEGORIES = {  # Add/remove categories as needed
     # ... existing categories ...
 }
